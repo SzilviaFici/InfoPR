@@ -11,6 +11,24 @@ h1 {
     color: white;
 }
 
+h2 {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    border: darkgreen;
+    border-style: dot-dot-dash;
+}
+
+p{
+    text-align: justify;
+    text-align: center;
+    color: white;
+    margin-left: 140px;
+    margin-right: 140px;
+    font-size: 20px;
+}
+
+
 /*bodycss*/
 
 body {
@@ -28,6 +46,7 @@ body {
     width:800px;
     margin:auto auto;
     margin-top:30px;
+    font-size: 20px;
 }
 
 .captionBild1{
@@ -35,6 +54,7 @@ body {
     color:white;
 display:inline-block;
     width:350px;
+    font-size: 20px;
 
 }
 
@@ -43,6 +63,7 @@ display:inline-block;
     display:inline-block;
     width:350px;
     text-align:center;
+    font-size: 20px;
 }
 
 .captionBild3{
@@ -50,6 +71,7 @@ display:inline-block;
     display:inline-block;
     width:350px;
     text-align:center;
+    font-size: 20px;
 }
 
 

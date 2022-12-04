@@ -7,15 +7,6 @@ h1 {
     color: white;
 }
 
-p{
-    text-align: justify;
-    text-align: center;
-    color: white;
-    margin-left: 140px;
-    margin-right: 140px;
-    font-size: 20px;
-}
-
 h2 {
     text-align: center;
     color: white;
@@ -25,11 +16,19 @@ h2 {
 h3 {
     text-align: center;
     color: white;
-    font-size: 25px;
+
 }
 
 h4 {
     text-align: center;
     color: white;
-    font-size: 25px;
+}
+
+p{
+    text-align: justify;
+    text-align: center;
+    color: white;
+    margin-left: 140px;
+    margin-right: 140px;
+    font-size: 20px;
 }
