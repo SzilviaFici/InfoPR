@@ -1,0 +1,22 @@
+body {
+    background-color: #0b2e50;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+p {
+    text-align: justify;
+    color: white;
+    margin-left: 140px;
+    margin-right: 140px;
+    font-size: 25px;
+}
+
+a {
+    text-align: justify;
+    color: white;
+    margin-left: 140px;
+}
