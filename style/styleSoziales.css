@@ -14,3 +14,9 @@ p {
     margin-right: 140px;
     font-size: 25px;
 }
+
+a {
+    text-align: justify;
+    color: white;
+    margin-left: 140px;
+}
