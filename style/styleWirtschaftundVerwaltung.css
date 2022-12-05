@@ -7,16 +7,25 @@ h1 {
     color: white;
 }
 
+h2 {
+    text-align: center;
+    color: white;
+}
 p {
     text-align: justify;
     color: white;
     margin-left: 140px;
     margin-right: 140px;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 a {
     text-align: justify;
     color: white;
     margin-left: 140px;
+    font-size: 22px;
+}
+
+.bild500 {
+    position: center;
 }
