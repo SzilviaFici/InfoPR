@@ -7,20 +7,37 @@ h1{
     color: white;
 }
 
+h2 {
+    text-align: center;
+    color: white;
+}
+
 p{
     text-align: justify;
     color: white;
     margin-left: 140px;
     margin-right: 140px;
-    font-size: 25px;
+    font-size: 20px;
 }
 a{
     text-align: justify;
     color: white;
-    margin-left: 140px;
+    margin-left: 180px;
     font-size: 22px;
 
 }
 
+.bild100{
+    position: center;
+    left: 100px;
+    bottom: 10px;
+    border: none;
+}
+
+.bild200 {
+    height: 100px;
+    width: 100px;
+
+}
 
 
