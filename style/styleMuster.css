@@ -4,10 +4,15 @@ h1 {
     color: white;
 }
 
+h2 {
+    text-align: center;
+    color: white;
+}
 
 p {
     text-align: center;
     color: white;
+    font-size: 19px;
 }
 
 body {
@@ -26,5 +31,5 @@ body {
     border-radius: 15px;
     display: block;
     position: center;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
