@@ -28,8 +28,10 @@ a{
 }
 
 .bild100{
-    position: center;
-    left: 100px;
+    position: relative;
+    margin:auto auto;
+    width:350px;
+
     bottom: 10px;
     border: none;
 }
