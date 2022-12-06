@@ -1,5 +1,6 @@
 body {
     background-color: #0b2e50;
+    font-family: Arial;
 }
 
 h1 {
@@ -27,6 +28,24 @@ a {
     font-size: 22px;
 }
 
+a:hover {
+    font-size:25px;
+}
+
 .bild600 {
-    position: center;
+    position: relative;
+    margin:auto auto;
+    width:350px;
+    left:100px;
+    bottom: 10px;
+    border: none;
+}
+
+.dienstMitte{
+    text-align:center;
+    position: relative;
+    margin:auto auto;
+    right:90px;
+    width:650px;
+
 }

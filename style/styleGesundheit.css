@@ -1,5 +1,6 @@
 body {
     background-color: #0b2e50;
+    font-family: Arial;
 }
 
 h1 {
@@ -24,11 +25,29 @@ p {
 a {
     text-align: justify;
     color: white;
-    margin-left: 140px;
+    margin-left: 180px;
     font-size: 22px;
 
 }
 
+a:hover {
+    font-size: 25px;
+}
+
 .bild300{
-    position: center;
+    position: relative;
+    margin:auto auto;
+    width:350px;
+    left:20px;
+    bottom: 10px;
+    border: none;
+}
+
+.dienstMitte{
+    text-align:center;
+    position: relative;
+    margin:auto auto;
+    right:90px;
+    width:650px;
+
 }
