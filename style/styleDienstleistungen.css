@@ -28,6 +28,10 @@ a{
 
 }
 
+a:hover {
+    font-size:25px;
+}
+
 .bild100{
     position: relative;
     margin:auto auto;
