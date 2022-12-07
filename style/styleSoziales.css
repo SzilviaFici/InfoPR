@@ -1,8 +1,14 @@
 body {
     background-color: #0b2e50;
+    font-family: Arial;
 }
 
 h1 {
+    text-align: center;
+    color: white;
+}
+
+h2 {
     text-align: center;
     color: white;
 }
@@ -12,11 +18,34 @@ p {
     color: white;
     margin-left: 140px;
     margin-right: 140px;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 a {
     text-align: justify;
     color: white;
     margin-left: 140px;
+    font-size: 22px;
+}
+
+a:hover {
+    font-size:25px;
+}
+
+.bild600 {
+    position: relative;
+    margin:auto auto;
+    width:350px;
+    left:100px;
+    bottom: 10px;
+    border: none;
+}
+
+.dienstMitte{
+    text-align:center;
+    position: relative;
+    margin:auto auto;
+    right:90px;
+    width:650px;
+
 }
