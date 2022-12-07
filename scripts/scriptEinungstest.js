@@ -71,21 +71,21 @@ function Ergebnis4() {
 }
 function Ergebnis5() {
     Ergebnis3Score++; FrageZaehlen++;
-    if (FrageZaehlen >= 5) {
+    if (FrageZaehlen >= 10) {
         ErgebnisAktualisieren();
     }
 }
 
 function ErgebnisAktualisieren() {
-    if (Ergebnis1Score >= 3) {
+    if (Ergebnis1Score >= 5) {
         document.getElementById("Ergebnis").innerHTML = "Dienstleistungen ist das passende Berufsfeld für dich";
-    } else if (Ergebnis2Score >3) {
+    } else if (Ergebnis2Score >5) {
             document.getElementById("Ergebnis").innerHTML = "Gesundheit ist das passende Berufsfeld für dich";
-    } else if (Ergebnis3Score >3) {
+    } else if (Ergebnis3Score >5) {
         document.getElementById("Ergebnis").innerHTML = "Soziales/Pädagogik ist das passende Berufsfeld für dich";
-    } else if (Ergebnis4Score >3) {
+    } else if (Ergebnis4Score >5) {
         document.getElementById("Ergebnis").innerHTML = "Wirtschaft/Verwaltung ist das passende Berufsfeld für dich";
-    } else if (Ergebnis5Score >3) {
+    } else if (Ergebnis5Score >5) {
         document.getElementById("Ergebnis").innerHTML = "IT ist das passende Berufsfeld für dich";
     }
 }
