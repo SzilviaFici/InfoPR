@@ -63,6 +63,18 @@ function Ergebnis3() {
         ErgebnisAktualisieren();
     }
 }
+function Ergebnis4() {
+    Ergebnis3Score++; FrageZaehlen++;
+    if (FrageZaehlen >= 5) {
+        ErgebnisAktualisieren();
+    }
+}
+function Ergebnis5() {
+    Ergebnis3Score++; FrageZaehlen++;
+    if (FrageZaehlen >= 5) {
+        ErgebnisAktualisieren();
+    }
+}
 
 function ErgebnisAktualisieren() {
     if (Ergebnis1Score >= 3) {
