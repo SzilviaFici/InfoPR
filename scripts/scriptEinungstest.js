@@ -68,12 +68,12 @@ function ErgebnisAktualisieren() {
     if (Ergebnis1Score >= 3) {
         document.getElementById("Ergebnis").innerHTML = "Dienstleistungen ist das passende Berufsfeld für dich";
     } else if (Ergebnis2Score >3) {
-            document.getElementById("Ergebnis").innerHTML = "Gesundheit ist das passende Berufsfeld für dich";
+            document.getElementById("Ergebnis").innerHTML = "Soziales/Pädagogik ist das passende Berufsfeld für dich";
     } else if (Ergebnis3Score >3) {
-        document.getElementById("Ergebnis").innerHTML = "📱 IT ist das passende Berufsfeld für dich";
+        document.getElementById("Ergebnis").innerHTML = "Gesundheit ist das passende Berufsfeld für dich";
     } else if (Ergebnis4Score >3) {
-        document.getElementById("Ergebnis").innerHTML = "Soziales/Pädagogik ist das passende Berufsfeld für dich";
-    } else if (Ergebnis5Score >3) {
         document.getElementById("Ergebnis").innerHTML = "Wirtschaft/Verwaltung ist das passende Berufsfeld für dich";
+    } else if (Ergebnis5Score >3) {
+        document.getElementById("Ergebnis").innerHTML = "IT ist das passende Berufsfeld für dich";
     }
 }
