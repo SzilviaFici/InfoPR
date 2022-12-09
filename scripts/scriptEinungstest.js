@@ -89,3 +89,4 @@ function ErgebnisAktualisieren() {
         document.getElementById("Ergebnis").innerHTML = "IT ist das passende Berufsfeld für dich";
     }
 }
+
